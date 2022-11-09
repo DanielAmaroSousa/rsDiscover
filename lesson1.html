@@ -1,0 +1,129 @@
+<h1>Um título</h1>
+um texto
+Hypertext Markup Language
+<!--
+    Aqui virá comentários:
+    HT = HiperTexto
+    M = Markup
+    L = Language
+-->
+
+<!--
+    Anatomia das tags
+
+    - Abertura de tag
+    - Fechamento da tag
+    - Conteúdo
+    - Elementos
+
+-->
+
+<h1>
+    O título
+</h1>
+
+<!--
+    Elementos vazios
+-->
+<img src="" alt="">
+<input type="text">
+
+<!--
+    Atributos HTML
+    -informações extra
+    -configurações
+-->
+
+<img src="conteudo.png" alt="">
+
+<!-- 
+    Atributos booleanos
+    - não precisam de conteúdo
+-->
+
+<input type="text" disabled>
+
+<!--
+    Aspas
+    - omissão
+    - simples
+    - duplas
+-->
+
+<a href=https://goole.com title='' target=""><link rel="stylesheet" href=""></a>
+
+<!--
+    Atributos Globais mais utilizados
+
+    - class "para utilizar no css e para acessar no js"
+    - contenteditable "pode editar o conteúdo"
+    - data-* "para inserir atributos através do js"
+    - hidden "esconde o conteúdo"
+    - id "identifica a divisão para acessar no js"
+    - style "utiliza elementos de css diretamente no html"
+    - tabindex "para navegar no site ordenando os elementos"
+    - tittle "definir um titulo - aparece qdo o mouse fica em cima"
+-->
+
+<div class="carrinho" contenteditable="true" id="cart1">
+    conteúdo
+</div>
+
+<div class="carrinho" data-qualquercoisa="" id="cart2" 
+style="color: rgb(139, 61, 30);">
+    conteúdo
+</div>
+
+<div class="carrinho" data-id="" id="cart2" 
+style="color: rgb(173, 173, 56);" hidden>
+    conteúdo
+</div>
+
+<div tabindex="1">
+    conteúdo
+</div>
+<div tabindex="2">
+    conteúdo
+</div>
+<div tabindex="3" tittle="developer.mozzila.org">
+    conteúdo
+</div>
+
+<!--
+    Aninhamento de tags
+
+    - Fluxo
+    - Hierarquia
+    - Posicionamento dos elementos
+
+-->
+
+<p>
+    Vou <em>escrever</em> um <br> parágrafo
+</p>
+
+
+<!-- 
+    Praticar 
+-->
+
+<p>
+    O <em> primeiro</em> dos dois <strong>parágrafos!</strong>
+</p>
+<p>
+    O <em> segundo</em> dos dois <b>parágrafos!</b> <a href="https://www.google.com">saiba mais</a>
+</p>
+
+<!-- 
+    Conteúdo do texto e caracteres reservados
+-->
+
+<p>
+    &lt; &nbsp;
+    os espaços
+    &nbsp; &gt;
+    que colocamos
+    <br> &amp;&quot;&nbsp;&apos;
+    além das quebras de linha são ignorados
+
+</p>

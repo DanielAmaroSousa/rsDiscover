@@ -1,0 +1,24 @@
+p {
+    /*font-family: 'Times New Roman', Times, serif;
+    
+    font-variant: small-caps;
+    font-stretch: expanded;*/
+    word-spacing: 5em;
+    letter-spacing: 1em;
+    line-height: 1.5;
+    text-transform: capitalize;
+    text-decoration: underline wavy red;
+    text-align: center;
+    text-shadow: 1px 1px 1px blue;
+    
+}
+
+body {
+    font-family: 'Poor Story', cursive;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.2rem;
+
+}
+
+/* também existe o shorthand font: */

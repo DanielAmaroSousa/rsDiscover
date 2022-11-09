@@ -1,0 +1,66 @@
+/* Cascading Style Sheet
+
+- seletor (tag html seleccionada)
+* aplica-se a todo o html
+#aplica-se ao id do html (em html: <div id="tag1">)
+em css: #tag1{}
+.aplica-se a class (em html: <div id="tag1" class="n-40">)
+em css: .n-40 {}
+agrupar seletores em css: h1,h2 {}
+- declaration entre chavões
+- properties
+- property value
+
+Box Model
+- todos os elementos html são caixas e são configuradas no css
+
+Adicionar um estilo css no html
+- inline (no html <h1 style="color: blue">)
+- no head (usando <style> xxx </style>)
+- noutro arquivo (usando <link rel="estilo" href="estilo.css")
+- outro jeito (@import 'f') ou (@import url('https://fonts.gooleapis.com/css2...etc)
+
+Cascata
+- a ultima alteração ao estilo vai ser a visualizada como se sobrescrevesse a anterior
+- origem: inline no html > style no html > link css
+- especificidade: apesar da cascata a força de cada tag sobrepõe-se
+0: universal*, combinators e negation pseudo-class (:not()) 
+1: elemnent type <h1> e pseudo elements (::before, ::after)
+10: classe (.) e attribute selectors ([type="radio"])
+100: id (#)
+1000: inline no html
+soma para saber a força 111: h1.classe#identificador
+- regra important (!important) sobrescreve todo o resto (color: red !important)
+
+At rules
+- @import para incluir um css externo
+- @media, @font-face, @keyframes
+
+Shorthand
+- junção de propriedades, resumido, legivel
+- sobrescreve todas as propriedades anteriores mesmo as não definidas pelo shorthand
+passando a serem padrão apesar de definidas anteriormente
+- nem todas as propriedades têm shorthand~
+
+Funções
+- nomedafc(argumentos)
+- ex: color: rgb(255, 0, 100) ou calc(100% - 10px) ou url("")
+
+DevTools
+- ferramentas de desenvolvedores: no google chrome tecla F12
+- são apresentadas de baixo para cima, ou seja, mais acima a última aplicada
+
+Formatação de texto
+- erros de escrita no css não dão erro simplesmente não são executados
+
+Vendor prefixes
+- propriedades dos browsers
+- consultar wich-vendor-prefix ou caniuse
+
+
+
+*/
+div {
+    border: 1px solid red;
+    margin: ;
+}
