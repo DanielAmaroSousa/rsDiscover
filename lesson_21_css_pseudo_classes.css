@@ -1,0 +1,41 @@
+
+article h3:first-child {
+    font-weight: bold;
+    color: red;
+}
+
+article p:nth-of-type(1) {
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+ul li:nth-child(ev){
+    color: grey;
+    background: #eee;
+}
+
+a:hover {
+    color: red;
+}
+
+input:focus {
+    border-color: blue;
+    outline: red;
+}
+
+input:required {
+    background-color: aqua;
+}
+
+li::before {
+    content: ">"
+}
+
+li::after {
+    content: ">";
+}
+
+ul li::first-line {
+    font-weight: bold;
+}

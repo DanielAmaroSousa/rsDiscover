@@ -1,0 +1,35 @@
+.red {
+    color: red;
+}
+
+.big {
+    font-size: 3em;
+}
+
+[segunda_cor] {
+    color: orange;
+}
+
+p:hover {
+    color: blue;
+}
+
+p, h1, .red {
+    color: green;
+}
+
+body article h2 {
+    color: violet;
+}
+
+body > ul > li {
+    color: brown;
+}
+
+h1 + p {
+    color: blue;
+}
+
+button + button {
+    margin-left: 20px;
+}
