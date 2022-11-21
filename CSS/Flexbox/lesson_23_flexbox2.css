@@ -1,0 +1,37 @@
+.page {
+    border: 2px solid;
+    min-height: 100vh;
+
+    display: flex;
+}
+
+
+aside {
+    background-color: greenyellow;
+    flex: 1;
+}
+
+main {
+    background-color: antiquewhite;
+    flex: 2;
+
+    display: flex;
+    flex-direction: column;
+}
+
+main section:nth-child(1) {
+    background-color: orange;
+    flex: 1;
+}
+
+main section:nth-child(2) {
+    background-color: rgb(0, 234, 255);
+    flex: 1;
+}
+
+main section:nth-child(3) {
+    background-color: rgb(255, 0, 247);
+    flex:0 80px;
+}
+
+/* shorthand flex: wrap shrink basis (nota: o basis é o que tem mais força)*/ 

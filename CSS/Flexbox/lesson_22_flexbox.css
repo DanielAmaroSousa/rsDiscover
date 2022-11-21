@@ -1,0 +1,33 @@
+.flexbox{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+}
+
+.itemFlex:nth-child(1){
+    order: 1 /* order: altera a posição visual dos elementos*/
+}
+
+.container{
+    display: flex;
+    /* Alinhamento no eixo principal ou cruzado
+
+    flex-direction: column; Eixo principal "column ou row (-reverse)"
+    flex-wrap: wrap; Ajusta à tela se não couber na largura passa para baixo
+    flex-flow: column wrap; Junta o direction e o wrap
+    justify-content: flex-end; "flex-start ou end""space-evenly ou between ou around"  
+    gap: 2px;Espaço entre elementos 
+    flex-basis: auto; largura/altura dos elementos consoante o eixo (posso usar percentagem ou px)
+    flex-grow: 0; se >=1 ocupa todo o espaço disponivel (se ouver vários elementos dividem o espaço) 
+    flex-shrink: 0; se >=1 na falta de espaço é este elemento que encolhe 
+    */
+
+    border: 1px solid red;
+    height: 40vh;
+}
+
+.itemContainer{
+    background-color: gray;
+    border: 1px solid;
+    flex: 1
+}

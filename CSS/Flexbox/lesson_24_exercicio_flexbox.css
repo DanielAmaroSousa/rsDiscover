@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(222, 220, 220);
+}
+
+h1{
+    font-family: cursive;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    border: 2px solid gray;
+    height: 20vh;
+    justify-content: space-between;
+}
+
+.logo{
+    font-weight: bold;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-left: .8rem;
+}
+
+.menu{
+    font-weight: bold;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-left: .8rem;
+    gap: .8rem
+
+}
+
+.menu section{
+    font-weight: bold;
+    color: black;
+}
+
+button{
+    background-color: blue;
+    font-weight: bold;
+    color: orange;
+    border-color: orange;
+}
+
